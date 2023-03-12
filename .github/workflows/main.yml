@@ -27,6 +27,3 @@ jobs:
           run: 
               python test.py
               
-        - name: Retrain model code
-          run: 
-              python house.py
