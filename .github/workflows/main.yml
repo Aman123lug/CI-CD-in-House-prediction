@@ -28,5 +28,5 @@ jobs:
               python test.py
 
         - name: Retrain model tests
-          run: app.py
+          run: python app.py
 
