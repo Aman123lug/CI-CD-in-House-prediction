@@ -9,6 +9,7 @@ columns = ['bedrooms', 'bathrooms', 'floors', 'yr_built', 'price']
 df = df[columns]
 
 X = df.iloc[:, 0:4]
+#checking workflow
 y = df.iloc[:, 4:]
 
 
