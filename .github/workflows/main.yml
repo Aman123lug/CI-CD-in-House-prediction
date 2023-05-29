@@ -27,11 +27,11 @@ jobs:
           run: 
               python test.py
               
-        - name: Breakpoint failure
-          if: failure()
-          uses: namespacelabs/breakpoint-action@v0
-          with:
-            duration: 30m
-            authorized-users: jack123, alice321
+#         - name: Breakpoint failure
+#           if: failure()
+#           uses: namespacelabs/breakpoint-action@v0
+#           with:
+#             duration: 30m
+#             authorized-users: jack123, alice321
               
               
